@@ -6,6 +6,7 @@ gcc and g++ need
 at git project dir 
 
 type :<br/>
+       git submodule update --init --recursive<br/>
        cd cpr<br/>
        mkdir build<br/>
        cmake ..<br/>
