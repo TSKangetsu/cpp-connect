@@ -35,14 +35,17 @@ int main(int argc, char *argv[])
             break;
         case 'p':
             passwd = optarg;
-            data_comfirm = 2;
+            if (data_comfirm = 1)
+            {
+                data_comfirm = 2;
+            }
             break;
         default:
             abort();
             break;
         }
     }
-    if (data_comfirm = 2)
+    if (data_comfirm == 2)
     {
         connect_send(usr, passwd);
     }
